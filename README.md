@@ -20,4 +20,6 @@ modify w to word; i to count
 
 modify list to tempWordInfos  
 
-modify w to wordInfo; s to wordInfoResult
+modify w to wordInfo; s to wordInfoResult  
+
+extract code to a funtion : generateWordInfoResult
