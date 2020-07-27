@@ -12,4 +12,6 @@ modify wordInfoList to wordInfos
 
 modify Input class to WordInfo class  
 
-delete useless notes
+delete useless notes  
+
+modify w1 to firstWordInfo; w2 to secondWordInfo
