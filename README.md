@@ -10,4 +10,6 @@ modify map to wordMap
 
 modify wordInfoList to wordInfos  
 
-modify Input class to WordInfo class
+modify Input class to WordInfo class  
+
+delete useless notes
