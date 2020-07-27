@@ -8,4 +8,6 @@ modify arr to words ; s to word
 
 modify map to wordMap  
 
-modify inputList to wordInfos
+modify wordInfoList to wordInfos  
+
+modify Input class to WordInfo class
