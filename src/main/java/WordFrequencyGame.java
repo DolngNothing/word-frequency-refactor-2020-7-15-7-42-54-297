@@ -9,6 +9,10 @@ import java.time.LocalDateTime;
 
 public class WordFrequencyGame {
     private static final String WORD_SPLIT = "\\s+";
+    private static final String BLANK_SPACE = " ";
+    private static final String CALCULATE_ERROR = "Calculate Error";
+    public static final String DELIMITER = "\n";
+
     public String getResult(String inputStr) {
         if (inputStr.split(WORD_SPLIT).length==1) {
             return inputStr + " 1";
@@ -37,14 +41,14 @@ public class WordFrequencyGame {
 
                 inputList.sort((w1, w2) -> w2.getWordCount() - w1.getWordCount());
 
-                StringJoiner joiner = new StringJoiner("\n");
+                StringJoiner joiner = new StringJoiner(DELIMITER);
                 for (Input w : inputList) {
-                    String s = w.getValue() + " " +w.getWordCount();
+                    String s = w.getValue() + BLANK_SPACE +w.getWordCount();
                     joiner.add(s);
                 }
                 return joiner.toString();
             } catch (Exception e) {
-                return "Calculate Error";
+                return CALCULATE_ERROR;
             }
         }
     }
