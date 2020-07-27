@@ -18,4 +18,6 @@ modify w1 to firstWordInfo; w2 to secondWordInfo
 
 modify w to word; i to count  
 
-modify list to tempWordInfos
+modify list to tempWordInfos  
+
+modify w to wordInfo; s to wordInfoResult
