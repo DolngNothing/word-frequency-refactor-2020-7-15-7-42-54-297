@@ -16,4 +16,6 @@ delete useless notes
 
 modify w1 to firstWordInfo; w2 to secondWordInfo  
 
-modify w to word; i to count
+modify w to word; i to count  
+
+modify list to tempWordInfos
