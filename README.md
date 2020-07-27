@@ -14,4 +14,6 @@ modify Input class to WordInfo class
 
 delete useless notes  
 
-modify w1 to firstWordInfo; w2 to secondWordInfo
+modify w1 to firstWordInfo; w2 to secondWordInfo  
+
+modify w to word; i to count
